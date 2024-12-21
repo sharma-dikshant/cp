@@ -15,3 +15,12 @@
 1. **Problem**: [**Kth Missing Positive Number in a Sorted Array**](https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1)
     - **hint**: Search for the missing number in the array.
     - **hint**: Can you use sorted array to find number of missing till ith position.
+
+## DAY 35
+1. **Problem**: [**Spirally traversing a matrix**](https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1)
+    - **hint**: Take 4 pointers top, right, left, bottom and traverse the topmost row from left to right, then rightmost column from top to bottom, then bottommost row from right to left and then leftmost column from bottom to top.
+    - **hint**: Now try to reduce the size of the matrix.
+
+## DAY 36
+1. **Problem**: [**Rotate by 90 degree**](https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1)
+    - **hint**: Try to find transpose of the matrix, then observe the pattern of the matrix.
