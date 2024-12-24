@@ -172,16 +172,16 @@
 
 
 ## DAY 37
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Search in a Row-Column sorted matrix**](https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1)
+- **hint**: try it;
 
 ## DAY 38
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Search in a row-wise sorted matrix**](https://www.geeksforgeeks.org/problems/search-in-a-row-wise-sorted-matrix/1)
+- **hint**: try it;
 
 ## DAY 39
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Search in a sorted Matrix**](https://www.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1)
+- **hint**: try to treate the entire matrix as a sorted array and then try to find the element in the sorted array.
 
 ## DAY 40
 1. **Problem**: [** **]()
