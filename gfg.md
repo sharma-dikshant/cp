@@ -184,16 +184,16 @@
 - **hint**: try to treate the entire matrix as a sorted array and then try to find the element in the sorted array.
 
 ## DAY 40
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Set Matrix Zeroes**](https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1)
+- **hint**: try to use the first row and first column as a flag to store the information about the row and column which has to be set to zero.
 
 ## DAY 41
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Two Sum - Pair with Given Sum**](https://www.geeksforgeeks.org/problems/key-pair5616/1)
+- **hint**: --
 
 ## DAY 42
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Count pairs with given sum**](https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum--150253/1)
+- **hint**: --
 
 ## DAY 43
 1. **Problem**: [** **]()
