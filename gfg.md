@@ -196,8 +196,9 @@
 - **hint**: --
 
 ## DAY 43
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Find All Triplets with Zero Sum**](https://www.geeksforgeeks.org/problems/find-all-triplets-with-zero-sum/1)
+- **hint**: this problem is not similar to 3 sum problem, because we've to return indices of the triplets.
+- **hint**: try to use hashing to store the sum of two elements with there indices and then try to find the third element in the hash table.
 
 ## DAY 44
 1. **Problem**: [** **]()
