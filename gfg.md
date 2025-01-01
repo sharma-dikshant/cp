@@ -201,20 +201,23 @@
 - **hint**: try to use hashing to store the sum of two elements with there indices and then try to find the third element in the hash table.
 
 ## DAY 44
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Intersection of Two arrays with Duplicate Elements**](https://www.geeksforgeeks.org/problems/intersection-of-two-arrays-with-duplicate-elements/1)
+- **hint**: try to store the elements of the first array in the set and then try to find the intersection of the two arrays.
+- **hint**: Once an element is found in the second array, then remove the element from the set.
 
 ## DAY 45
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Union of Arrays with Duplicates**](https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1)
+- **hint**: insert element of first, second into set.
 
 ## DAY 46
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Longest Consecutive Subsequence**](https://www.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1)
+- **hint**: approach 1: sort the array and then try to find the longest consecutive subsequence. make sure to handle the duplicates.
+- **hint**: approach 2: try to use set to store the elements of the array and then try to find the longest consecutive subsequence.
 
 ## DAY 47
-1. **Problem**: [** **]()
-- **hint**:
+1. **Problem**: [**Print Anagrams Together**](https://www.geeksforgeeks.org/problems/print-anagrams-together/1)
+- **hint**: if two strings are anagrams of each other then after sorting they will be same.
+- **hint**: try to use hashing to store the anagrams of the strings with sorted word as key and push anagram to the vector corresponding to its sorted word in hash.
 
 ## DAY 48
 1. **Problem**: [** **]()
