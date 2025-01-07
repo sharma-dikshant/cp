@@ -63,6 +63,11 @@ int main()
     string pat = "abb";
     vector<int>result;
 
+    //using find function 
+    if(txt.find(pat) != string::npos) {
+        cout<<"found";
+    }
+
     kmp(txt, pat, result);
     for(auto el: result) {
         cout<<el<<" ";

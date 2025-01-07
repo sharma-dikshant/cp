@@ -9,6 +9,7 @@
 
 ## 1. Strings  
 - ### Pattern Matching  
+    - [Naive Pattern Matching (or by using find() function)](./algorithms/strings/kmp.cpp)
     - [KMP Algorithm](./algorithms/strings/kmp.cpp)
     - Rabin Karp Algorithm
 
