@@ -9,7 +9,7 @@
 
 ## 1. Strings  
 - ### Pattern Matching  
-    - KMP Algorithm
+    - [KMP Algorithm](./algorithms/strings/kmp.cpp)
     - Rabin Karp Algorithm
 
 ## 2. Arrays
@@ -27,6 +27,16 @@
     - Counting Sort
     - Radix Sort
     - Bucket Sort
+
+## 3. Trees
+- ### Traversal
+    - Inorder (recursive)
+    - Preorder (recursive)
+    - Postorder (recursive)
+    - Level Order (BFS using Queue)
+    - Inorder (iterative) : using stack
+    - Inorder (iterative) : Morris Traversal (O(1) space) 
+
 
 
 # Other Miscellaneous Concepts  
