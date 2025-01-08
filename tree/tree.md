@@ -39,10 +39,47 @@ ________________________________________________________
 - Vertical Order Traversal
 
 
-## Conceptual Questions of Binary Tree: 
-- [Check for balanced binary tree.](./balanceBinaryTree.cpp)
-- Maximum Path Sum in Binary Tree.
-- Check if two trees are identical.
+## Concepts of Binary Tree: 
+ - ### Number of Nodes at any level in Binary Tree:  
+ ```cpp 
+    
+            1       Level 1: 2 ^ 0 = 1                
+           / \
+          2   3     Level 2: 2 ^ 1 = 2 
+         / \ / \
+        4  5 6  7   Level 3: 2 ^ 3 = 8
+
+        Total Number of Node if there is n levels : 1 << (n - 1)
+    
+ ```
+
+- ### Indexing of Nodes in a Binary Tree:  
+```cpp 
+    1 Based Indexing
+            1                   
+           / \
+          2   3     
+         / \ / \
+        4  5 6  7  
+
+    0 Based Indexing
+            0                   
+           / \
+          1   2     
+         / \ / \
+        3  4 5  6
+
+    General Formula:
+        1. For 0 Based Indexing: 
+            - Left Child: 2 * i             (i is index of parent node)
+            - Right Child: 2 * i + 1 
+
+        2. For 1 Based Indexing:
+            - Left Child: 2 * i + 1         (i is index of parent node)
+            - Right Child: 2 * i + 2
+    
+ ```
+
 
 
 # Codes:
