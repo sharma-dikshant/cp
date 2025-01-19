@@ -5,8 +5,8 @@ __Topics__:
 - [Sieve of Eratosthenes.](#sieve-of-eratosthenes)  
 - [Segmented Sieve.]
 - [Prime Factorization.](#prime-factorization)
-- Binary and Modular Exponentiation.
-- Modular Arithmetic.  
+- [Binary and Modular Exponentiation.](#binary-exponentiation)
+- [Modular Arithmetic.](#modular-arithmetic)  
 - LCM and GCD.  
 - Factorial and nCr.  
 
@@ -208,3 +208,89 @@ __Solution__: We can take the modulo of the result with some number.
 ```
 
 __(-3) % 12 = 9__
+
+# Binary Exponentiation:
+__Problem__: Find the `A` to power `B` i.e. `pow(A, B)` in `log(B)`.
+
+### Approach 1: Using Recursion
+
+__Intuition__:  
+```txt
+    A^B = A^(B/2) * A^(B/2) if B is even
+    A^B = A^(B/2) * A^(B/2) * A if B is odd
+```
+
+```cpp 
+int findPow(int a, int n) {
+    if(n == 0) return 1;
+    if(n == 1) return a;
+
+    int x = findPow(a, n / 2);
+
+    int result = 0;
+    if(n % 2 == 0) {
+        //power is even
+        result = x * x;
+    }else {
+        result = x * x * a;
+    }
+
+    return result;
+}
+``` 
+
+### Approach 2: Using Binary Representation of Exponent 
+__Intution__:  
+![alt text](image.png)  
+```txt
+    A^13 = A^(1101) = A^(2^3) * A^(2^2) * A^(2^0)
+
+    because 13 can be written as 8 + 4 + 1 = (1101) in binary
+```
+
+```cpp
+int findPow(int a, int n) {
+    if(n == 0) return 1;
+    if(n == 1) return a;
+
+    int result = 1;
+
+    while(n) {
+        if(n & 1)
+            result *= a;
+
+        a = a * a;
+        n >>= 1;
+    }
+
+    return result;
+}
+```
+
+# Modular Exponentiation:  
+__Problem__: Since we've already seen that we can't store the result of large numbers in a variable, so we can take the modulo of the result with some number.  
+
+```txt
+a.b = (a % m) * (b % m) % m
+```
+
+# GCD and LCM:  
+- ## GCD:  
+    __Problem__: Find the greatest common divisor of two numbers.  
+    __Naive Method__: Iterate from 1 to min(a, b) and check if a % i == 0 and b % i == 0.
+    
+    __Euclidean Algorithm__:  
+    ```txt
+        GCD(a, b) = GCD(b, a % b) if b != 0
+        GCD(a, 0) = a
+    ```
+
+    ```cpp
+    int gcd(int a, int b) {
+        if(b == 0) return a;
+        return gcd(b, a % b);
+    }
+    // complexity: O(log(min(a, b)))
+    ```
+
+- ## LCM:
