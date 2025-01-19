@@ -3,6 +3,7 @@ __Topics__:
 - [Factors of a Number.](#factors-of-a-number)  
 - [Prime Number.](#prime-number)  
 - [Sieve of Eratosthenes.](#sieve-of-eratosthenes)  
+- [Segmented Sieve.]
 - [Prime Factorization.](#prime-factorization)
 - Binary and Modular Exponentiation.
 - Modular Arithmetic.  
@@ -127,6 +128,25 @@ void sieve(int n) {
 // complexity: O(n * log(log(n)))
 ```
 
+# Segmented Sieve:
+
+```cpp
+int sieveArr[N+1] = {0};
+vector<int>primes;
+
+void sieve(){
+    for(ll i = 2; i<=N; i++){
+        if(sieveArr[i] == 0){
+            primes.push_back(i);
+            //mark the multiples of i as non-primes
+            for(ll j = i*i; j <=N; j+=i){
+                sieveArr[j] = 1; //not prime
+            }
+        }
+    }
+}
+```
+
 # Prime Factorization:  
 __Problem__: Find all the prime factors of a number.  
 __O(n) solution__:
@@ -164,3 +184,27 @@ void primeFactorize(int n) {
     }
 }
 ```
+
+# Divisors of a Number:
+
+__Problem__: Find all the divisors of a number.
+
+```cpp
+if num = (2^a) * (3^b) * (4^c)
+
+then, the number of divisors = (a+1) * (b+1) * (c+1)
+```
+
+
+# Modular Arithmetic:  
+
+__Problem__: we've to do the operations like addition, subtraction, multiplication, division, and the numbers are very large. for eg: Let A = 10^18, B = 10^18, then problem here is that we can't store the result in a variable because the result will be 10^36 which is not possible to store in a variable.
+
+__Solution__: We can take the modulo of the result with some number.  
+```cpp
+(A + B) % M = ((A % M) + (B % M)) % M
+(A - B) % M = ((A % M) - (B % M)) % M // double check this
+(A * B) % M = ((A % M) * (B % M)) % M 
+```
+
+__(-3) % 12 = 9__

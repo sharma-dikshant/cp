@@ -31,7 +31,7 @@ Node *buildTree()
 
     return n;
 }
-
+// ** All THESE TRAVERSALS ARE RECURSIVE
 void printPreOrder(Node *root)
 {
     if (root == NULL)

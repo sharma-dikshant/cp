@@ -30,7 +30,16 @@ ________________________________________________________
 
 - ### Diameter of Binary Tree:  
     - Number of edges in the longest path between two any nodes in a tree.
+- ### Binary Tree Creation:  
+    A Unique binary can't be created from the inorder and preorder traversal.  
+    if inorder and preorder traversal is given then we can create a unique binary tree.   
+    __creating a binary tree from inorder and preorder traversal:__
 
+    ```cpp
+
+    
+
+    ```
 ________________________________________________________
 
 ## Other Binary Tree Traversal: 
