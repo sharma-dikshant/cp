@@ -220,75 +220,75 @@
 - **hint**: try to use hashing to store the anagrams of the strings with sorted word as key and push anagram to the vector corresponding to its sorted word in hash.
 
 ## DAY 48
-1. **Problem**: [** **]()
+1. **Problem**: [**Subarrays with sum K**](https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1)
 - **hint**:
 
 ## DAY 49
-1. **Problem**: [** **]()
+1. **Problem**: [**Count Subarrays with given XOR**](https://www.geeksforgeeks.org/problems/count-subarray-with-given-xor/1)
 - **hint**:
 
 ## DAY 50
-1. **Problem**: [** **]()
+1. **Problem**: [**Count all triplets with given sum in sorted array**](https://www.geeksforgeeks.org/problems/count-all-triplets-with-given-sum-in-sorted-array/1)
 - **hint**:
 
 ## DAY 51
-1. **Problem**: [** **]()
+1. **Problem**: [**Count Pairs whose sum is less than target**](https://www.geeksforgeeks.org/problems/count-pairs-whose-sum-is-less-than-target/1)
 - **hint**:
 
 ## DAY 52
-1. **Problem**: [** **]()
+1. **Problem**: [**Sum Pair closest to target**](https://www.geeksforgeeks.org/problems/pair-in-array-whose-sum-is-closest-to-x1124/1)
 - **hint**:
 
 ## DAY 53
-1. **Problem**: [** **]()
+1. **Problem**: [**Pair with given sum in a sorted array**](https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1)
 - **hint**:
 
 ## DAY 54
-1. **Problem**: [** **]()
+1. **Problem**: [**Count the number of possible triangles**](https://www.geeksforgeeks.org/problems/count-possible-triangles-1587115620/1)
 - **hint**:
 
 ## DAY 55
-1. **Problem**: [** **]()
+1. **Problem**: [**Indexes of Subarray Sum**](https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)
 - **hint**:
 
 ## DAY 56
-1. **Problem**: [** **]()
+1. **Problem**: [**Count distinct elements in every window**](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)
 - **hint**:
 
 ## DAY 57
-1. **Problem**: [** **]()
+1. **Problem**: [**Longest substring with distinct characters**](https://www.geeksforgeeks.org/problems/longest-distinct-characters-in-string5848/1)
 - **hint**:
 
 ## DAY 58
-1. **Problem**: [** **]()
+1. **Problem**: [**Trapping Rain Water**](https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)
 - **hint**:
 
 ## DAY 59
-1. **Problem**: [** **]()
+1. **Problem**: [**Container With Most Water**](https://www.geeksforgeeks.org/problems/container-with-most-water0535/1)
 - **hint**:
 
 ## DAY 60
-1. **Problem**: [** **]()
+1. **Problem**: [**Equilibrium Point**](https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1)
 - **hint**:
 
 ## DAY 61
-1. **Problem**: [** **]()
+1. **Problem**: [**Longest Subarray with Sum K**](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
 - **hint**:
 
 ## DAY 62
-1. **Problem**: [** **]()
+1. **Problem**: [**Largest subarray of 0's and 1's**](https://www.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1)
 - **hint**:
 
 ## DAY 63
-1. **Problem**: [** **]()
+1. **Problem**: [**Product array puzzle**](https://www.geeksforgeeks.org/problems/product-array-puzzle4525/1)
 - **hint**:
 
 ## DAY 64
-1. **Problem**: [** **]()
+1. **Problem**: [**Reverse a linked list**](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1)
 - **hint**:
 
 ## DAY 65
-1. **Problem**: [** **]()
+1. **Problem**: [**Rotate a Linked List**](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1)
 - **hint**:
 
 ## DAY 66
