@@ -293,4 +293,9 @@ a.b = (a % m) * (b % m) % m
     // complexity: O(log(min(a, b)))
     ```
 
-- ## LCM:
+- ## LCM:  
+
+```txt
+   A * B = GCD(A, B) * LCM(A, B)
+```
+
