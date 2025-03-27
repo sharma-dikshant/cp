@@ -1,11 +1,10 @@
 # Josephus Problem  
 ## Problem Statement  
-![Josephus Problem](./1_4BQDN46Qwq8f4zznnhbhtw.gif)
+![Josephus Problem](./josephus.gif)
 
 **The problem** — given the number of people, starting point, direction, and number to be skipped — is to choose the position in the initial circle to avoid execution.
 
-[Numberphile link](https://youtu.be/uCsD3ZGzMgE?si=f2l9k53pa-9Td6XT)
-
+[Numberphile link](https://youtu.be/uCsD3ZGzMgE?si=f2l9k53pa-9Td6XT)  
 ## Solution
 The problem can be solved using a recursive function. The function `josephus(n, k)` takes two arguments: `n` is the number of people in the circle, and `k` is the number of people to be skipped. The function returns the position of the person who survives.
 
