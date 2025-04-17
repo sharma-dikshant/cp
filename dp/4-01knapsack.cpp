@@ -20,18 +20,16 @@ int solve (vector<int>& w, vector<int>& v, int idx, int W) {
 
 int main() {
     memset(dp, -1, sizeof(dp));
-    int W = 100;
-    vector<int> weights(500), values(500);
+    int W = 7;
+    
+    vector<int>weights = {1, 3, 4, 5};
+    vector<int>values = {1, 4, 5, 7};
     int n = weights.size();
-    for (int i = 0; i < 500; ++i) {
-        weights[i] = i + 1;         // 1 to 500
-        values[i] = 500 - i;        // 500 to 1
-    }
     
     vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));
 
     for (int i = 1; i < n + 1; i++) {
-        for (int j = 0; j < W + 1; j++) {
+        for (int j = 1; j < W + 1; j++) {
             int skip = dp[i - 1][j];
             int take = 0;
             if (weights[i - 1] <= j) {
@@ -42,8 +40,16 @@ int main() {
     }
 
     int res = dp[n][W];
-    cout<<res;
+    cout<<res<<endl;
 
-    // cout<<solve(weights, values, n - 1, W);
+    // printing selected items
+    for (int i = n, w = W; i > 0 && w > 0; i--) {
+        if (dp[i][w] != dp[i - 1][w]) {
+            //this item is contributed
+            cout<<values[i - 1]<<" ";
+            w -= weights[i - 1];
+        }
+    }
+
     return 0;
 }
