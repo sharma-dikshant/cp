@@ -299,3 +299,5 @@ a.b = (a % m) * (b % m) % m
    A * B = GCD(A, B) * LCM(A, B)
 ```
 
+
+
