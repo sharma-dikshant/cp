@@ -4,9 +4,7 @@ using namespace std;
 class Complex {
     public:
         int imag, real;
-        Complex(int r, int i) : imag(i), real(r) {
-            // cout << "heloo"; //? this is valid 
-        };
+        Complex(int r, int i) : imag(i), real(r) { };
 
         Complex operator + (const Complex& c) {
             return Complex(real + c.real, imag + c.imag);
