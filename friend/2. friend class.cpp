@@ -8,7 +8,7 @@ class A {
     public:
     A() { data = 100; }
     
-    friend class B;     //? this function can be written anywhere in the class, except not in any function defination.
+    friend class B;     //? this function can be written anywhere in the class
 };
 
 class B {

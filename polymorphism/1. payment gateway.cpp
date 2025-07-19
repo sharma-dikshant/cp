@@ -33,7 +33,7 @@ void completeTransactions(Payment* method, int amt) {
 
 int main() {
 
-    Payment* p1 = new CreditCard();
+    Payment* p1 = new CreditCard();     //? this is call upcasting
     Payment* p2 = new UPI();
 
     p1->pay(100);

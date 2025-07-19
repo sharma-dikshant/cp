@@ -2,11 +2,11 @@
 using namespace std;
 
 class A {
-        int secretKey;
+    int secretKey;
     public:
-        A() { secretKey = 10; }
-
-        friend void showSecretKey(A obj);
+    A() { secretKey = 10; }
+    
+    friend void showSecretKey(A obj);
 };
 
 void showSecretKey(A obj) {
