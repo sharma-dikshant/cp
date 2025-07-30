@@ -10,7 +10,7 @@ class A {
 
 };
 
-class B: private A {
+class B: public A {
 
     public:
         void draw() {
