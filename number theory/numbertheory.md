@@ -8,7 +8,8 @@ __Topics__:
 - [Binary and Modular Exponentiation.](#binary-exponentiation)
 - [Modular Arithmetic.](#modular-arithmetic)  
 - LCM and GCD.  
-- Factorial and nCr.  
+- Factorial and nCr.
+- Modular Inverse
 
 # Factors of a Number:  
  __Brute Force Method__: Iterate from 1 to n and check if n is divisible by i.
@@ -299,5 +300,9 @@ a.b = (a % m) * (b % m) % m
    A * B = GCD(A, B) * LCM(A, B)
 ```
 
-
+# Modular Inverse
+```txt
+ // Modular inverse of A MOD M is
+    (A ^ (M - 2)) % M
+```
 
