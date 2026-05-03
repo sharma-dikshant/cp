@@ -1,0 +1,593 @@
+[
+  {
+    "id": "algorithms/arrays/median",
+    "path": "content/algorithms/arrays/median.cpp",
+    "title": "Median",
+    "category": "algorithms",
+    "tags": [
+      "algorithm",
+      "array"
+    ]
+  },
+  {
+    "id": "algorithms/arrays/notes",
+    "path": "content/algorithms/arrays/notes.md",
+    "title": "Notes",
+    "category": "algorithms",
+    "tags": [
+      "algorithm",
+      "array"
+    ]
+  },
+  {
+    "id": "algorithms/sorting/inversion_count",
+    "path": "content/algorithms/sorting/inversion_count.cpp",
+    "title": "Inversion Count",
+    "category": "algorithms",
+    "tags": [
+      "algorithm",
+      "sorting"
+    ]
+  },
+  {
+    "id": "algorithms/sorting/merge_sort",
+    "path": "content/algorithms/sorting/merge_sort.cpp",
+    "title": "Merge Sort",
+    "category": "algorithms",
+    "tags": [
+      "algorithm",
+      "sorting"
+    ]
+  },
+  {
+    "id": "algorithms/sorting/quick_sort",
+    "path": "content/algorithms/sorting/quick_sort.cpp",
+    "title": "Quick Sort",
+    "category": "algorithms",
+    "tags": [
+      "algorithm",
+      "sorting"
+    ]
+  },
+  {
+    "id": "algorithms/strings/kmp",
+    "path": "content/algorithms/strings/kmp.cpp",
+    "title": "Kmp",
+    "category": "algorithms",
+    "tags": [
+      "algorithm",
+      "string"
+    ]
+  },
+  {
+    "id": "cpp/basic_calculator",
+    "path": "content/cpp/basic_calculator.cpp",
+    "title": "Basic Calculator",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/bit_manipulation",
+    "path": "content/cpp/bit_manipulation.md",
+    "title": "Bit Manipulation",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/linked_list_double",
+    "path": "content/cpp/linked_list_double.cpp",
+    "title": "Linked List Double",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/linked_list_single",
+    "path": "content/cpp/linked_list_single.cpp",
+    "title": "Linked List Single",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/list_ds",
+    "path": "content/cpp/list_ds.cpp",
+    "title": "List Ds",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/queue_implementation",
+    "path": "content/cpp/queue_implementation.cpp",
+    "title": "Queue Implementation",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/stack_implementation",
+    "path": "content/cpp/stack_implementation.cpp",
+    "title": "Stack Implementation",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/stl_notes",
+    "path": "content/cpp/stl_notes.md",
+    "title": "Stl Notes",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "cpp/tokenization_stringstream",
+    "path": "content/cpp/tokenization_stringstream.cpp",
+    "title": "Tokenization Stringstream",
+    "category": "cpp",
+    "tags": [
+      "cpp",
+      "cpp-stl"
+    ]
+  },
+  {
+    "id": "dynamic-programming/fibonacci",
+    "path": "content/dynamic-programming/fibonacci.cpp",
+    "title": "Fibonacci",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp"
+    ]
+  },
+  {
+    "id": "dynamic-programming/knapsack/knapsack_01",
+    "path": "content/dynamic-programming/knapsack/knapsack_01.cpp",
+    "title": "Knapsack 01",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "knapsack"
+    ]
+  },
+  {
+    "id": "dynamic-programming/lcs/memoization",
+    "path": "content/dynamic-programming/lcs/memoization.cpp",
+    "title": "Memoization",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "lcs"
+    ]
+  },
+  {
+    "id": "dynamic-programming/lcs/print_lcs",
+    "path": "content/dynamic-programming/lcs/print_lcs.cpp",
+    "title": "Print Lcs",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "lcs"
+    ]
+  },
+  {
+    "id": "dynamic-programming/lcs/tabulation",
+    "path": "content/dynamic-programming/lcs/tabulation.cpp",
+    "title": "Tabulation",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "lcs"
+    ]
+  },
+  {
+    "id": "dynamic-programming/lis/memoization",
+    "path": "content/dynamic-programming/lis/memoization.cpp",
+    "title": "Memoization",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "lis"
+    ]
+  },
+  {
+    "id": "dynamic-programming/lis/print_lis",
+    "path": "content/dynamic-programming/lis/print_lis.cpp",
+    "title": "Print Lis",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "lis"
+    ]
+  },
+  {
+    "id": "dynamic-programming/lis/tabulation",
+    "path": "content/dynamic-programming/lis/tabulation.cpp",
+    "title": "Tabulation",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp",
+      "lis"
+    ]
+  },
+  {
+    "id": "dynamic-programming/notes",
+    "path": "content/dynamic-programming/notes.md",
+    "title": "Notes",
+    "category": "dynamic-programming",
+    "tags": [
+      "dp"
+    ]
+  },
+  {
+    "id": "graph/mst/prims",
+    "path": "content/graph/mst/prims.cpp",
+    "title": "Prims",
+    "category": "graph",
+    "tags": [
+      "graph",
+      "mst"
+    ]
+  },
+  {
+    "id": "graph/representation/graph",
+    "path": "content/graph/representation/graph.cpp",
+    "title": "Graph",
+    "category": "graph",
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "graph/representation/list_implementation",
+    "path": "content/graph/representation/list_implementation.cpp",
+    "title": "List Implementation",
+    "category": "graph",
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "graph/representation/matrix_implementation",
+    "path": "content/graph/representation/matrix_implementation.cpp",
+    "title": "Matrix Implementation",
+    "category": "graph",
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "graph/shortest-path/bellman_ford",
+    "path": "content/graph/shortest-path/bellman_ford.cpp",
+    "title": "Bellman Ford",
+    "category": "graph",
+    "tags": [
+      "graph",
+      "shortest-path"
+    ]
+  },
+  {
+    "id": "graph/shortest-path/dijkstra",
+    "path": "content/graph/shortest-path/dijkstra.cpp",
+    "title": "Dijkstra",
+    "category": "graph",
+    "tags": [
+      "graph",
+      "shortest-path"
+    ]
+  },
+  {
+    "id": "graph/shortest-path/floyd_warshall",
+    "path": "content/graph/shortest-path/floyd_warshall.cpp",
+    "title": "Floyd Warshall",
+    "category": "graph",
+    "tags": [
+      "graph",
+      "shortest-path"
+    ]
+  },
+  {
+    "id": "graph/traversal/bfs",
+    "path": "content/graph/traversal/bfs.cpp",
+    "title": "Bfs",
+    "category": "graph",
+    "tags": [
+      "graph",
+      "bfs",
+      "dfs"
+    ]
+  },
+  {
+    "id": "number-theory/factorial",
+    "path": "content/number-theory/factorial.cpp",
+    "title": "Factorial",
+    "category": "number-theory",
+    "tags": [
+      "number-theory",
+      "math"
+    ]
+  },
+  {
+    "id": "number-theory/iterative_nCr",
+    "path": "content/number-theory/iterative_nCr.cpp",
+    "title": "Iterative NCr",
+    "category": "number-theory",
+    "tags": [
+      "number-theory",
+      "math"
+    ]
+  },
+  {
+    "id": "number-theory/modular_inverse",
+    "path": "content/number-theory/modular_inverse.cpp",
+    "title": "Modular Inverse",
+    "category": "number-theory",
+    "tags": [
+      "number-theory",
+      "math"
+    ]
+  },
+  {
+    "id": "number-theory/modular_nCr",
+    "path": "content/number-theory/modular_nCr.cpp",
+    "title": "Modular NCr",
+    "category": "number-theory",
+    "tags": [
+      "number-theory",
+      "math"
+    ]
+  },
+  {
+    "id": "number-theory/nCr",
+    "path": "content/number-theory/nCr.cpp",
+    "title": "NCr",
+    "category": "number-theory",
+    "tags": [
+      "number-theory",
+      "math"
+    ]
+  },
+  {
+    "id": "number-theory/notes",
+    "path": "content/number-theory/notes.md",
+    "title": "Notes",
+    "category": "number-theory",
+    "tags": [
+      "number-theory",
+      "math"
+    ]
+  },
+  {
+    "id": "problems/binary_patterns",
+    "path": "content/problems/binary_patterns.md",
+    "title": "Binary Patterns",
+    "category": "problems",
+    "tags": [
+      "problems"
+    ]
+  },
+  {
+    "id": "problems/gfg_160_challenge",
+    "path": "content/problems/gfg_160_challenge.md",
+    "title": "Gfg 160 Challenge",
+    "category": "problems",
+    "tags": [
+      "problems"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/1",
+    "path": "content/problems/guess_the_output/1.cpp",
+    "title": "1",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/10",
+    "path": "content/problems/guess_the_output/10.cpp",
+    "title": "10",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/11",
+    "path": "content/problems/guess_the_output/11.cpp",
+    "title": "11",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/12",
+    "path": "content/problems/guess_the_output/12.cpp",
+    "title": "12",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/13",
+    "path": "content/problems/guess_the_output/13.cpp",
+    "title": "13",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/2",
+    "path": "content/problems/guess_the_output/2.cpp",
+    "title": "2",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/3",
+    "path": "content/problems/guess_the_output/3.cpp",
+    "title": "3",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/4",
+    "path": "content/problems/guess_the_output/4.cpp",
+    "title": "4",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/5",
+    "path": "content/problems/guess_the_output/5.cpp",
+    "title": "5",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/6",
+    "path": "content/problems/guess_the_output/6.cpp",
+    "title": "6",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/7",
+    "path": "content/problems/guess_the_output/7.cpp",
+    "title": "7",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/8",
+    "path": "content/problems/guess_the_output/8.cpp",
+    "title": "8",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/guess_the_output/9",
+    "path": "content/problems/guess_the_output/9.cpp",
+    "title": "9",
+    "category": "problems",
+    "tags": [
+      "problems",
+      "cpp",
+      "tricky"
+    ]
+  },
+  {
+    "id": "problems/interactive_problem",
+    "path": "content/problems/interactive_problem.cpp",
+    "title": "Interactive Problem",
+    "category": "problems",
+    "tags": [
+      "problems"
+    ]
+  },
+  {
+    "id": "problems/maths_famous_problems",
+    "path": "content/problems/maths_famous_problems.md",
+    "title": "Maths Famous Problems",
+    "category": "problems",
+    "tags": [
+      "problems"
+    ]
+  },
+  {
+    "id": "sql/notes",
+    "path": "content/sql/notes.md",
+    "title": "Notes",
+    "category": "sql",
+    "tags": [
+      "sql"
+    ]
+  },
+  {
+    "id": "trees/notes",
+    "path": "content/trees/notes.md",
+    "title": "Notes",
+    "category": "trees",
+    "tags": [
+      "tree"
+    ]
+  },
+  {
+    "id": "trees/striver_playlist",
+    "path": "content/trees/striver_playlist.cpp",
+    "title": "Striver Playlist",
+    "category": "trees",
+    "tags": [
+      "tree"
+    ]
+  },
+  {
+    "id": "trees/tree",
+    "path": "content/trees/tree.cpp",
+    "title": "Tree",
+    "category": "trees",
+    "tags": [
+      "tree"
+    ]
+  }
+]

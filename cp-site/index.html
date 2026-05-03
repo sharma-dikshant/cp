@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CP Reference</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <span id="logo">CP Reference</span>
+        <button id="hamburger" aria-label="Toggle sidebar">&#9776;</button>
+      </div>
+      <div id="search-wrap">
+        <input id="search-box" type="text" placeholder="Search..." autocomplete="off" spellcheck="false" />
+      </div>
+      <nav id="nav-tree"></nav>
+    </aside>
+
+    <main id="main">
+      <div id="toolbar">
+        <span id="breadcrumb"></span>
+        <button id="copy-btn" title="Copy code">Copy</button>
+      </div>
+      <div id="content">
+        <div id="welcome">
+          <h1>CP Reference</h1>
+          <p>Select a topic from the sidebar to get started.</p>
+          <ul id="quick-links"></ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="sidebar.js"></script>
+  <script src="search.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
