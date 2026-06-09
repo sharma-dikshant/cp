@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int prims(vector<vector<pair<int, int>>> &adj, vector<int> &visit, vector<vector<int>> &mst)
